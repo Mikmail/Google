@@ -1,0 +1,131 @@
+.iNeedAGrid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+}
+
+.google {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    justify-items: center;
+}
+
+.buttonsign {
+    background-color: #4885ed;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 7px 10px;
+    position: relative;
+    bottom: 7px;
+    font-weight: bold; 
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.content-end ul {
+    float: right;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    /* display: block; */
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.grid-search {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100%;
+}
+
+.apps {
+    height:23px;
+    position:relative;
+    bottom:4px;
+}
+
+.bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+    padding-left: 14px;
+    padding: 5px 8px 0 16px;
+    margin-top: 25px;
+    position: relative;
+}
+.bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+}
+.searchbar{
+    height:40px;
+    border:none;  
+    width:500px;
+    font-size:16px;
+    outline: none;
+}
+.voice{
+    height: 20px;
+    position: absolute;
+    top: 13px;
+    right: 16px;
+    outline: none;
+}
+
+.search{
+    height: 20px;
+    position: absolute;
+    top: 14px;
+    left: 16px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.button {
+    border: none;
+    font-size: 15px; 
+    padding: 10px 20px;
+    border-radius: 4px; 
+    margin: 5px;
+    outline: none;
+    color: rgb(107, 107, 107);
+}
+
+.button:hover{
+    border: 1px solid #bdbdbd;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0.5px 0.5px 0.3px 0.3px rgb(150, 150, 150);
+    
+}
+
+.buttonF:hover span {
+    display: none;
+}
+
+.buttonF:hover:before {
+    content: "I'm Feeling Trendy";
+}
+
